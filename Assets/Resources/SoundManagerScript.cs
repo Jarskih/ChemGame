@@ -5,13 +5,15 @@ using UnityEngine;
 public class SoundManagerScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    public static AudioClip Collision;
+    public static AudioClip Collision, Reaction;
     static AudioSource audioScr;
          
     void Start()
     {
 
         Collision = Resources.Load<AudioClip>("Collision");
+
+        Reaction = Resources.Load<AudioClip>("Reaction");
 
         audioScr = GetComponent<AudioSource>();
 
@@ -28,6 +30,10 @@ public class SoundManagerScript : MonoBehaviour
         switch (clip)
         {
             case "Collision":
+                audioScr.PlayOneShot(Collision);
+                break;
+
+            case "Reaction":
                 audioScr.PlayOneShot(Collision);
                 break;
         }

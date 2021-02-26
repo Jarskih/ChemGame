@@ -33,6 +33,7 @@ public class Attractor : MonoBehaviour
                 if (attractor.IsNegativeCharge && !IsNegativeCharge)
                 {
                     Attract(attractor, true);
+                    SoundManagerScript.PlaySound("Reaction");
                 }
                 else
                 {
@@ -100,6 +101,7 @@ public class Attractor : MonoBehaviour
                 if (attractor.IsNegativeCharge && !IsNegativeCharge)
                 {
                     Attract(attractor, true);
+                    SoundManagerScript.PlaySound("Reaction");
                 }
                 else
                 {
