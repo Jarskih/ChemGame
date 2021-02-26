@@ -7,7 +7,7 @@ public class FollowPlayer : MonoBehaviour
 {
     private static CinemachineVirtualCamera _camera;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         _camera = GetComponent<CinemachineVirtualCamera>();
     }
