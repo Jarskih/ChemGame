@@ -14,7 +14,7 @@ public class SquashOnCollision : MonoBehaviour
         ContactPoint contact = other.contacts[0];
         Vector3 myCollisionNormal = other.contacts[0].normal;
         myCollisionNormal = new Vector3(Mathf.Abs(myCollisionNormal.x), Mathf.Abs(myCollisionNormal.y), 1);
-        Debug.Log("normal: " + myCollisionNormal);
+      //  Debug.Log("normal: " + myCollisionNormal);
         var value = new Vector3(Mathf.Clamp(myCollisionNormal.x, 0.8f, 1.2f), Mathf.Clamp(myCollisionNormal.y, 0.8f, 1.2f), 1);
         
         Sequence mySequence = DOTween.Sequence();
