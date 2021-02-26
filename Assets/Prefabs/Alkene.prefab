@@ -1161,7 +1161,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2600912453328422972
 Transform:
   m_ObjectHideFlags: 0
@@ -1224,8 +1224,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _objectToSpawn: {fileID: 0}
   _finalObject: {fileID: 3410241639794840198}
-  tag: Substitution
+  _tag: Substitution
   movePlayer: 0
+  endgame: 0
 --- !u!65 &919132148379968519
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1237,8 +1238,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: -2.18}
+  m_Size: {x: 0.75, y: 1, z: 2.01}
+  m_Center: {x: 0, y: 0, z: -1.36}
 --- !u!1 &3693248109702432458
 GameObject:
   m_ObjectHideFlags: 0

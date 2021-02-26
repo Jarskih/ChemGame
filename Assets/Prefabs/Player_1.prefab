@@ -1505,7 +1505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _force: 15
-  _rotationForce: 1
+  _rotationForce: 2
 --- !u!114 &45696287
 MonoBehaviour:
   m_ObjectHideFlags: 0

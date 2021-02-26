@@ -8,7 +8,7 @@ public class React : MonoBehaviour
 {
     public GameObject _objectToSpawn;
     public GameObject _finalObject;
-    public string tag;
+    public string _tag;
     public bool movePlayer;
     public bool endgame;
     
@@ -24,7 +24,7 @@ public class React : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag(tag))
+        if (other.CompareTag(_tag))
         {
             SpawnObject();
             SwapToNewObject();
@@ -34,10 +34,9 @@ public class React : MonoBehaviour
             
             if (!endgame)
             {
-                var controls = ChangeControls();
-
                 if (!movePlayer)
                 {
+                    var controls = ChangeControls();
                     FollowPlayer.SetFollow(controls.transform);
                 }
             }
