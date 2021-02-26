@@ -14,7 +14,7 @@ public class React : MonoBehaviour
         _finalObject.SetActive(false);
         if (!(_objectToSpawn is null))
         {
-            _objectToSpawn.SetActive(false);
+            _objectToSpawn.gameObject.SetActive(false);
         }
     }
 
