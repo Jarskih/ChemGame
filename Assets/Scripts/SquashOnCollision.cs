@@ -6,8 +6,29 @@ using UnityEngine;
 
 public class SquashOnCollision : MonoBehaviour
 {
+    private float timer = 0;
+    private float delay = 0.5f;
+    private float _minStrenght = 0.01f;
+
+    private void Update()
+    {
+        timer += Time.deltaTime;
+    }
+
     private void OnCollisionEnter(Collision other)
     {
+        if(timer < delay)
+        {
+            return;
+        }
+
+        if (other.impulse.magnitude < _minStrenght)
+        {
+            return;
+        }
+        
+        timer = 0;
+    
         transform.localScale = new Vector3(1, 1, 1);
         SoundManagerScript.PlaySound("Collision");
 
