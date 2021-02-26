@@ -12,7 +12,10 @@ public class React : MonoBehaviour
     void Start()
     {
         _finalObject.SetActive(false);
-        _objectToSpawn?.SetActive(false);
+        if (!(_objectToSpawn is null))
+        {
+            _objectToSpawn.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
