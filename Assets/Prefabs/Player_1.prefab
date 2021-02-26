@@ -1396,7 +1396,7 @@ GameObject:
   - component: {fileID: 9117852293744298945}
   - component: {fileID: 9117852293744298944}
   m_Layer: 0
-  m_Name: Player2
+  m_Name: Player_1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1445,5 +1445,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ff82be72f6d44d49b8925b0e4054edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _force: 10
+  _force: 9
   _rotationForce: 0.1
