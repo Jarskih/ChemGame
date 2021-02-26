@@ -29,12 +29,6 @@ public class Controls : MonoBehaviour
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
             _rigidbody.AddForce(transform.right * _force, ForceMode.Acceleration);
-            
-            if (_timer > _delay)
-            {
-                _timer = 0;
-                //_rigidbody.AddForce(transform.right * _force, ForceMode.Acceleration);
-            }
         }
 
         float turn = Input.GetAxis("Horizontal");
