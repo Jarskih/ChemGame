@@ -592,7 +592,7 @@ GameObject:
   - component: {fileID: 374071476}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4133,6 +4133,8 @@ GameObject:
   - component: {fileID: 1420849657386947074}
   - component: {fileID: 1420849657386947073}
   - component: {fileID: 1420849657386947072}
+  - component: {fileID: 2114420990}
+  - component: {fileID: 2114420989}
   m_Layer: 0
   m_Name: Molecule_1
   m_TagString: Untagged
@@ -4188,6 +4190,35 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 56
   m_CollisionDetection: 1
+--- !u!135 &2114420990
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420849657386947075}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2114420989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420849657386947075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71182387bb486ba4d96b7fb95ae6ea0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsNegativeCharge: 1
+  UseGravityBorder: 1
+  ReactOnTouch: 0
+  rb: {fileID: 0}
 --- !u!1 &1554745285319504796
 GameObject:
   m_ObjectHideFlags: 0
@@ -4452,7 +4483,7 @@ GameObject:
   - component: {fileID: 1560980556}
   m_Layer: 0
   m_Name: Mid
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
