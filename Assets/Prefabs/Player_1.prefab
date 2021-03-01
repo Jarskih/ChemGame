@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4767092932908889636}
   m_Layer: 0
   m_Name: Hydrogen12
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,10 +90,10 @@ GameObject:
   - component: {fileID: 4454451705181291481}
   - component: {fileID: 2583591032867364243}
   - component: {fileID: 7017714785723707036}
-  - component: {fileID: 239042095}
+  - component: {fileID: 1544640095}
   m_Layer: 0
   m_Name: Oxygen3
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,7 +159,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &239042095
+--- !u!135 &1544640095
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,7 +171,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.27559575
-  m_Center: {x: 0, y: 0, z: -0.00000023841858}
+  m_Center: {x: 0, y: 0, z: -0.00000020861626}
 --- !u!1 &828919287547190085
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,10 +183,10 @@ GameObject:
   - component: {fileID: 8861538091831722361}
   - component: {fileID: 4991463815532604878}
   - component: {fileID: 2058247720359378711}
-  - component: {fileID: 1849410263}
+  - component: {fileID: 2144241912}
   m_Layer: 0
   m_Name: bond22
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -252,7 +252,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1849410263
+--- !u!65 &2144241912
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -276,10 +276,10 @@ GameObject:
   - component: {fileID: 4470770645592702274}
   - component: {fileID: 359103832542844338}
   - component: {fileID: 3149069230106338078}
-  - component: {fileID: 544371792}
+  - component: {fileID: 849002113}
   m_Layer: 0
   m_Name: Oxygen2
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -345,7 +345,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &544371792
+--- !u!135 &849002113
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -369,10 +369,10 @@ GameObject:
   - component: {fileID: 8756171041455224997}
   - component: {fileID: 144839040312430786}
   - component: {fileID: 5874623412864152878}
-  - component: {fileID: 738135629}
+  - component: {fileID: 1113150227}
   m_Layer: 0
   m_Name: Sulphur
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -438,7 +438,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &738135629
+--- !u!135 &1113150227
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -462,10 +462,10 @@ GameObject:
   - component: {fileID: 2522950446160332492}
   - component: {fileID: 3004172704720804978}
   - component: {fileID: 3494645966091063577}
-  - component: {fileID: 577495542}
+  - component: {fileID: 990330748}
   m_Layer: 0
   m_Name: bond21
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -531,7 +531,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &577495542
+--- !u!65 &990330748
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -543,7 +543,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.10683899, y: 0.106839046, z: 0.80161756}
-  m_Center: {x: 0, y: 2.842171e-14, z: -0.00000023841858}
+  m_Center: {x: 0, y: 0, z: -0.000000059604645}
 --- !u!1 &3421270686359201097
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,10 +555,10 @@ GameObject:
   - component: {fileID: 8880246728292194571}
   - component: {fileID: 1913745667568783780}
   - component: {fileID: 4508792191287429971}
-  - component: {fileID: 810249064}
+  - component: {fileID: 888846136}
   m_Layer: 0
   m_Name: bond26
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -624,7 +624,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &810249064
+--- !u!65 &888846136
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -650,7 +650,7 @@ GameObject:
   - component: {fileID: 5430985082919325200}
   m_Layer: 0
   m_Name: Hydrogen
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -727,9 +727,10 @@ GameObject:
   - component: {fileID: 5248282120006442061}
   - component: {fileID: 6605523219576298970}
   - component: {fileID: 6788557378720487191}
+  - component: {fileID: 204248193}
   m_Layer: 0
   m_Name: bond23
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -795,6 +796,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &204248193
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4182415495847682473}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.42333648, y: 0.06049546, z: 0.27934086}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4497058653194837848
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,7 +820,7 @@ GameObject:
   - component: {fileID: 3828925722072057314}
   m_Layer: 0
   m_Name: SM_Molecule_4
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -851,10 +865,10 @@ GameObject:
   - component: {fileID: 5031995933162274657}
   - component: {fileID: 4857044751317620038}
   - component: {fileID: 168266270080561527}
-  - component: {fileID: 1972344772}
+  - component: {fileID: 1740963469}
   m_Layer: 0
   m_Name: bond25
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -920,7 +934,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1972344772
+--- !u!65 &1740963469
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -944,9 +958,10 @@ GameObject:
   - component: {fileID: 8226230769115831469}
   - component: {fileID: 2257558469311907709}
   - component: {fileID: 9100710016665453946}
+  - component: {fileID: 1937498553}
   m_Layer: 0
   m_Name: bond24
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1012,6 +1027,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1937498553
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6392117769220800868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.42333648, y: 0.06049546, z: 0.27934086}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7102613615670307267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,10 +1051,10 @@ GameObject:
   - component: {fileID: 193014141088705926}
   - component: {fileID: 42262288245405467}
   - component: {fileID: 7562635439068538426}
-  - component: {fileID: 1907500338}
+  - component: {fileID: 1818026597}
   m_Layer: 0
   m_Name: Oxygen
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1092,7 +1120,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &1907500338
+--- !u!135 &1818026597
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1117,9 +1145,10 @@ GameObject:
   - component: {fileID: 7734934496668213450}
   - component: {fileID: 9159971150160770084}
   - component: {fileID: 162194344}
+  - component: {fileID: 439568797}
   m_Layer: 0
   m_Name: bond27
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1198,6 +1227,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.10683899, y: 0.106839046, z: 0.80161756}
   m_Center: {x: 0, y: 0, z: 0.00000023841858}
+--- !u!65 &439568797
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7357883272214266364}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10683899, y: 0.106839046, z: 0.80161756}
+  m_Center: {x: 0, y: 0, z: 0.00000023841858}
 --- !u!1 &8518314842893794101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,9 +1252,10 @@ GameObject:
   - component: {fileID: 8592436359518200596}
   - component: {fileID: 5801233208656401047}
   - component: {fileID: 830705068}
+  - component: {fileID: 1183585013}
   m_Layer: 0
   m_Name: bond
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1291,6 +1334,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.10683899, y: 0.106839046, z: 0.80161756}
   m_Center: {x: 0, y: 2.842171e-14, z: -0.00000023841858}
+--- !u!65 &1183585013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518314842893794101}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10683899, y: 0.106839046, z: 0.80161756}
+  m_Center: {x: 0, y: 0, z: -0.000000059604645}
 --- !u!1 &8998308963369608264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,10 +1358,10 @@ GameObject:
   - component: {fileID: 4606412692616428191}
   - component: {fileID: 1316826644334769622}
   - component: {fileID: 2164819628128662000}
-  - component: {fileID: 1428309582}
+  - component: {fileID: 741985925}
   m_Layer: 0
   m_Name: Oxygen1
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1371,7 +1427,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &1428309582
+--- !u!135 &741985925
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1383,7 +1439,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.27559575
-  m_Center: {x: 0, y: 0, z: 0.00000011920929}
+  m_Center: {x: 0, y: 1.4210855e-14, z: 0.00000023841858}
 --- !u!1 &9117852293744298951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,9 +1451,12 @@ GameObject:
   - component: {fileID: 9117852293744298946}
   - component: {fileID: 9117852293744298945}
   - component: {fileID: 9117852293744298944}
+  - component: {fileID: 45696287}
+  - component: {fileID: 45696285}
+  - component: {fileID: 8849318528517150888}
   m_Layer: 0
   m_Name: Player_1
-  m_TagString: Player
+  m_TagString: Elimination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1425,14 +1484,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9117852293744298951}
   serializedVersion: 2
-  m_Mass: 0.01
+  m_Mass: 0.1
   m_Drag: 1
-  m_AngularDrag: 1
+  m_AngularDrag: 5
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 56
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &9117852293744298944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1445,5 +1504,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ff82be72f6d44d49b8925b0e4054edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _force: 9
-  _rotationForce: 0.1
+  _force: 15
+  _rotationForce: 2
+--- !u!114 &45696287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9117852293744298951}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71182387bb486ba4d96b7fb95ae6ea0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsNegativeCharge: 1
+  UseGravityBorder: 0
+  ReactOnTouch: 0
+  rb: {fileID: 0}
+--- !u!135 &45696285
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9117852293744298951}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8849318528517150888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9117852293744298951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93718a55b4f42904aa3a1556642b6d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _minStrenght: 1

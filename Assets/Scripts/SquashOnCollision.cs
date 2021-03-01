@@ -8,7 +8,7 @@ public class SquashOnCollision : MonoBehaviour
 {
     private float timer = 0;
     private float delay = 0.5f;
-    private float _minStrenght = 0.01f;
+    [SerializeField] float _minStrenght = 0.01f;
 
     private void Update()
     {
