@@ -26,6 +26,8 @@ public class React : MonoBehaviour
     {
         if (other.CompareTag(_tag))
         {
+            ChangePulse.Next();
+            
             SpawnObject();
             SwapToNewObject();
             HideReactant(other.gameObject);

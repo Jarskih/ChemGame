@@ -4213,7 +4213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ff82be72f6d44d49b8925b0e4054edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _force: 35
+  _force: 15
   _rotationForce: 1
 --- !u!54 &1420849657386947072
 Rigidbody:
@@ -6510,6 +6510,7 @@ GameObject:
   - component: {fileID: 1039715998311138593}
   - component: {fileID: 4691319242429467820}
   - component: {fileID: 7928862917278376375}
+  - component: {fileID: 1689825962}
   m_Layer: 0
   m_Name: SM_Oxygen1
   m_TagString: Untagged
@@ -6578,6 +6579,18 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!122 &1689825962
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5544269912232491955}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190335
+  m_Size: 0.95
 --- !u!1 &5619237118614576506
 GameObject:
   m_ObjectHideFlags: 0
